@@ -39,6 +39,7 @@ app.get('/rejected', function (req, res)  {
 });   
 
 app.post('/ipn', function (req, res)  {
+    console.log(req.body)
     // Actualizar estados de las transacciones...
     res.sendStatus(200)
 });
