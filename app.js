@@ -68,7 +68,7 @@ app.post('/create_preference', function (req, res)  {
 			},
             address:{
                 street_name: "Insurgentes Sur",
-                street_number: "1602",
+                street_number: 1602,
                 zip_code: "03940"
             },
 		},
