@@ -94,7 +94,7 @@ app.post('/create_preference', function (req, res)  {
             installments: 6
         },
         external_reference: "nesh.diaz@gmail.com",
-        notifications_url: base_url + "ipn"
+        notification_url: base_url + "ipn"
         
     };
 
