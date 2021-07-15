@@ -52,7 +52,7 @@ app.post('/create_preference', function (req, res)  {
 	let preference = {
 		items: [{
 			id: 1234,
-            description: "Dispositivo móvil de tienda e-commerce",
+            description: "Dispositivo móvil de Tienda e-commerce",
 			title: req.body.description,
 			unit_price: Number(req.body.price),
 			quantity: 1,
@@ -67,8 +67,8 @@ app.post('/create_preference', function (req, res)  {
 				number: 5549737300
 			},
             address:{
-                street_name: "INSURGENTES SUR",
-                street_number: 1602,
+                street_name: "Insurgentes Sur",
+                street_number: "1602",
                 zip_code: "03940"
             },
 		},
